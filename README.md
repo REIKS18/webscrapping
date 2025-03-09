@@ -89,5 +89,3 @@ webscrapping/
 5. Open a Pull Request
 
 ## License
-MIT License
-
