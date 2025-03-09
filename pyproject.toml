@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fetch-papers"   # Your package name
+version = "0.1.0"       # Initial version
+description = "Fetch research papers with non-academic authors from PubMed"
+authors = ["REIKS HERDITH <reiksherdithmobi@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+get-papers-list = "fetch_papers.cli:main"
